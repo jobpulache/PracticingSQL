@@ -36,3 +36,4 @@ INSERT INTO Sales (product_id, quantity_sold, sale_date, total_price) VALUES
 ( 105, 6, '2024-01-03', 90.00);
 
 SELECT * FROM Sales WHERE total_price > 100;
+SELECT * FROM Products WHERE Category = "Electronics";
