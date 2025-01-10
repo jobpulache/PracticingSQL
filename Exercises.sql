@@ -39,3 +39,4 @@ SELECT * FROM Sales WHERE total_price > 100;
 SELECT * FROM Products WHERE Category = "Electronics";
 SELECT sale_id, total_price FROM Sales WHERE sale_date = "2024-01-03";
 SELECT product_id, product_name FROM products WHERE unit_price > 100;
+SELECT sum(total_price) AS renueve FROM sales;
